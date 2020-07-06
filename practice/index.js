@@ -3,4 +3,6 @@
 // import './data-binding'
 // import './computed'
 // import './directive'
-import './component/define'
+// import './component/define'
+import './component/extends'
+
