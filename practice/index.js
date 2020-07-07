@@ -4,5 +4,6 @@
 // import './computed'
 // import './directive'
 // import './component/define'
-import './component/extends'
+// import './component/extends'
+import './component/v-model'
 
