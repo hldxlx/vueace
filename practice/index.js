@@ -5,5 +5,6 @@
 // import './directive'
 // import './component/define'
 // import './component/extends'
-import './component/v-model'
+// import './component/v-model'
+import './component/feature'
 
