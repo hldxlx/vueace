@@ -10,12 +10,13 @@
     "clean": "rimraf dist",
     "precommit": "npm run lint-fix",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.client.js",
-    "practice":"cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.practice.js"
+    "practice": "cross-env NODE_ENV=development webpack-dev-server --config build/webpack.config.practice.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "vue": "2.5.13"
+    "vue": "2.5.13",
+    "vue-router": "^3.3.4"
   },
   "devDependencies": {
     "autoprefixer": "7.2.3",
