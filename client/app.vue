@@ -2,11 +2,12 @@
   <div id="app">
     <div id="cover"></div>
     <Header></Header>
-    <router-link to="/app">app</router-link>
+    <router-link :to="{name:'app'}">app</router-link>
     <router-link to="/login">login</router-link>
     <!--<router-link to="/login/exact">login exact</router-link>-->
-
-    <router-view/>
+     <transition name="fade">
+       <router-view/>
+     </transition>
     <Footer></Footer>
   </div>
 </template>
@@ -23,6 +24,9 @@ export default {
     Header,
     Footer,
     Todo
+  },
+  mounted(){
+    console.log(this.$route)
   }
 }
 </script>
